@@ -1,0 +1,124 @@
+.EachCompany_body {
+  margin: 10px 120px 10px 120px;
+}
+.EachCompany_directory {
+  font-size: 12px;
+  background-size: 12px;
+  background-position: 0px center;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.EachCompany_body {
+  display: flex;
+  flex-direction: column;
+}
+.EachCompany_directory {
+  background-image: url(../../public/assets/img/left-arrow.png);
+}
+.EachCompany_directory:hover {
+  text-decoration: underline;
+}
+.EachCompany_body_main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.EachCompany_profile {
+  width: 100%;
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 2px grey;
+}
+.EachCompany_banner {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: rgb(60, 65, 68);
+  background: linear-gradient(
+    45deg,
+    rgba(60, 65, 68, 1) 0%,
+    rgba(120, 138, 149, 1) 72%
+  );
+}
+#EachCompany_banner_img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+.EachCompany_profile_pic {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 0px 4px grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -30px;
+  left: 20px;
+}
+#EachCompany_banner_profile_pic {
+  width: 40px;
+  height: 40px;
+}
+.EachCompany_name {
+  position: relative;
+  top: -75px;
+  left: 110px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+.EachCompany_content {
+  background-color: rgb(232, 232, 232);
+  margin-top: 10px;
+  padding: 10px;
+}
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1pt solid rgb(201, 201, 201);
+}
+td:first-child {
+  font-weight: bold;
+  width: 200px;
+}
+.EachCompany_content table:nth-child(2) {
+  margin-top: 25px;
+  width: 100%;
+}
+.EachCompany_content table:nth-child(2) tr th:nth-child(1) {
+  width: 15%;
+}
+.EachCompany_content table:nth-child(2) tr th:nth-child(2) {
+  width: 25%;
+}
+.EachCompany_content table:nth-child(2) tr th {
+  text-align: left;
+}
+.EachCompany_content table:nth-child(2) tr td,
+th {
+  border: 1px solid grey;
+}
+
+#EachCompany_add_review {
+  background-color: rgb(3, 95, 185);
+  border-radius: 5px;
+  padding: 2px;
+  color: white;
+  font-size: 14px;
+  margin-left: 20px;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  cursor: pointer;
+}

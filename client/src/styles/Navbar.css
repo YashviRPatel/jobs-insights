@@ -1,0 +1,117 @@
+.Navbar{
+    display: flex;
+    color: white;
+}
+
+.Navbar_child {
+    width: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    width: 100vw;
+}
+.Navbar_child_row_one {
+    background-color: rgb(120,138,149);
+    padding: 15px 120px 15px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.Navbar_child_row_two {
+    background-color: rgb(93,111,122);
+    padding: 5px 120px 5px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Navbar_child_row_two_left div{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.Navbar_child_row_two_left {
+    display: flex;
+    flex-direction: row;
+}
+.Navbar_child_row_two_right{
+    cursor: pointer;
+}
+.Navbar_left {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.Navbar_left span{
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+    margin-right: 20px;
+}
+
+.Searchbar_input {
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    padding: 6px 10px 6px 30px;
+    color: white;
+    width: 300px;
+    border-radius: 5px;
+    background-image: url(../../public/assets/img/search.png);
+    background-size: 13px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+
+.Searchbar_input:focus {
+    outline: none;
+}
+.Searchbar_input::placeholder {
+    color: white;
+}
+
+.Navbar_salaries, .Navbar_jobs, .Navbar_companies, .Navbar_prediction, .Navbar_about_us {
+    background-size: 15px;
+    background-position: 0px center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.Navbar_salaries:hover, 
+.Navbar_jobs:hover,
+.Navbar_companies:hover,
+.Navbar_prediction:hover,
+.Navbar_about_us:hover {
+    background-color: rgb(65, 77, 84);
+}
+
+.Navbar_salaries {
+    background-image: url(../../public/assets/img/banknotes.png);
+}
+.Navbar_jobs {
+    background-image: url(../../public/assets/img/baggage.png);
+
+}
+.Navbar_companies {
+    background-image: url(../../public/assets/img/organization.png);
+
+}
+.Navbar_prediction {
+    background-image: url(../../public/assets/img/mind-map.png);
+
+}
+.Navbar_forEmployers {
+    white-space: nowrap;
+    cursor: pointer;
+}
+.Navbar_about_us {
+    background-image: url(../../public/assets/img/contacts-2.png);
+
+}
+.Navbar_forEmployers:hover {
+    text-decoration: underline;
+}
+.Navbar_link {
+    color: inherit;
+    text-decoration: inherit;
+}

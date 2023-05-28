@@ -1,0 +1,61 @@
+.AllCompanies_main {
+  margin: 10px 120px 10px 120px;
+}
+.AllCompanies_search {
+  display: flex;
+  flex-direction: column;
+}
+.AllCompanies_search_heading {
+  font-size: 28px;
+  /* font-weight: bold; */
+}
+.AllCompanies_search_subheading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+#AllCompanies_search_input {
+  width: 600px;
+  border-radius: 7px;
+  height: 35px;
+  outline: none;
+  font-size: 18px;
+  box-shadow: 0px 0px 2px grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+.AllCompanies_listed {
+  margin-top: 20px;
+}
+.AllCompanies_listed_heading {
+  /* font-weight: bold; */
+  font-size: 16px;
+}
+.AllCompanies_listed_cards {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.AllCompanies_listed_each_card {
+  margin: 10px;
+  background-color: rgb(237, 242, 246);
+  width: 200px;
+  height: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(1, 123, 254);
+  display: flex;
+  align-items: center;
+}
+.AllCompanies_listed_each_card:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 1px grey;
+  scale: 1.05;
+  font-weight: 500;
+  /* text-decoration: underline; */
+}
+.AllCompanies_link {
+  text-decoration: none;
+}
